@@ -1,0 +1,28 @@
+.logos {
+  padding: 40px 0 20px;
+  border-top: 1px solid var(--border);
+}
+
+.logos-label {
+  text-align: center;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 26px;
+}
+
+.logos-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 18px 56px;
+  font-family: var(--mono);
+  font-size: 18px;
+  font-weight: 500;
+  color: #4a4a4a;
+}
+
+.logos-row li { transition: color 0.2s; }
+.logos-row li:hover { color: var(--text); }

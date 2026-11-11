@@ -1,0 +1,44 @@
+.t-title { margin-top: 14px; max-width: 620px; }
+.t-title .dim { color: var(--muted); }
+
+.quotes {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 56px;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 28px;
+  padding: 28px;
+  background: var(--bg-elev);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+}
+
+.quote blockquote { font-size: 16px; line-height: 1.6; }
+
+.quote figcaption { display: flex; align-items: center; gap: 12px; }
+
+.avatar {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--bg-hover);
+  border: 1px solid var(--border-hi);
+  color: var(--accent);
+  font-family: var(--mono);
+  font-size: 14px;
+}
+
+.quote strong { display: block; font-size: 14px; font-weight: 600; }
+.quote small { color: var(--muted); font-size: 13px; }
+
+@media (max-width: 900px) {
+  .quotes { grid-template-columns: 1fr; }
+}
