@@ -4,7 +4,7 @@ A pixel-perfect, fully responsive landing page for **Kanbo**, a fictional
 project-management SaaS. Built as Task 1 of the Arrowstack Frontend
 Development Internship (Batch 2026).
 
-**Live demo:** kanbo-landing.vercel.app
+**Live Demo:** [kanbo-landing.vercel.app](https://kanbo-landing.vercel.app/)
 
 
 ## Features
